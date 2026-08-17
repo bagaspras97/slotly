@@ -1,0 +1,12 @@
+{
+  "name": "slotly",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "dev": "pnpm --parallel --stream --recursive  run dev",
+    "typecheck": "pnpm --recursive  run typecheck",
+    "test": "pnpm --recursive  run test",
+    "build": "pnpm --recursive  run build",
+    "check": "pnpm run typecheck && pnpm run test && pnpm run build"
+  }
+}

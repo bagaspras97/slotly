@@ -54,8 +54,8 @@ pnpm --version
 Clone the repository and move into the project directory:
 
 ```powershell
-git clone <repository-url>
-cd "fullstack simulation"
+git clone https://github.com/bagaspras97/slotly.git
+cd "slotly"
 ```
 
 Install all workspace dependencies from the repository root:
